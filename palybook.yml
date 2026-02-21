@@ -1,0 +1,8 @@
+---
+- name: test Playbook
+  hosts: all
+  tasks:
+    - name: print welcome message
+      debug:
+        msg: "Welcome to GitHub From playbook"
+...
